@@ -1,0 +1,24 @@
+<h2>Products</h2>
+<button (click)="but()">Pritesh</button>
+<div *ngFor="let product of products">
+  <h3>
+    <a
+      [title]="product.name + ' details'"
+      [routerLink]="['/products', product.id]"
+    >
+      {{ product.name }}</a
+    >
+  </h3>
+
+  <p *ngIf="product.description">Description: {{ product.description }}</p>
+  <button (click)="share()">Share</button>
+  <p *ngIf="product && product.price < 500">
+    <button (click)="notify()">Notify Me</button>
+  </p>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

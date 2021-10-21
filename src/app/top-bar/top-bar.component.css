@@ -1,0 +1,21 @@
+.btn button {
+  width: 80px;
+  color: white;
+  background-color: white;
+}
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: blue;
+  padding: 8px 10px;
+  text-align: end;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
