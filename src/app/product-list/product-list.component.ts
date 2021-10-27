@@ -21,9 +21,6 @@ export class ProductListComponent {
       'Product is out of stock.. once we receive we will let you know....'
     );
   }
-  but() {
-    window.alert('I am Pritesh....Its meee...I am super');
-  }
 }
 
 /*
